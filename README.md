@@ -1,4 +1,4 @@
-## Two-pointer approach
+## Two-pointers: one input, opposite ends
 
 ```
 public int fn(int[] arr){
@@ -12,6 +12,31 @@ public int fn(int[] arr){
         }else{
             right--;
         }
+    }
+    return ans;
+}
+```
+
+## Two-pointers: two inputs, exhaust both
+
+```
+public int fn(int[] arr1, int[] arr2){
+    int i =0, j=0, ans = 0;
+    while(i < arr.length  && j < arr2.length){
+        //do some logic
+        if(condition){
+            i++;
+        }else{
+            j++;
+        }
+    }
+    while(i<arr1.length){
+        //do logic
+        i++;
+    }
+    while(j<arr2.length){
+        //do logic
+        j++;
     }
     return ans;
 }
