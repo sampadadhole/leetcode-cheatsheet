@@ -233,7 +233,7 @@ public int dfs(int node, int[][] graph) {
 }
 ```
 
-##Graph: DFS(iterative)
+## Graph: DFS(iterative)
 
 ```
 public int fn(int[][] graph) {
@@ -523,3 +523,5 @@ while (!heap.isEmpty()) {
     }
 }
 ```
+
+##### LC link: https://leetcode.com/explore/interview/card/cheatsheets/720/resources/4725/
